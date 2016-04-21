@@ -13,6 +13,7 @@ class CheckAuthority {
         //enter ctrl+c to kill.
         while (true) {
             System.out.println("Enter the amount to check who should approve your expenditure.");
+            System.out.print(">");
             System.out.print("B2");
             double d = Double.parseDouble(new BufferedReader(new InputStreamReader(System.in)).readLine());
             manager.processRequest(new PurchaseRequest(d));
