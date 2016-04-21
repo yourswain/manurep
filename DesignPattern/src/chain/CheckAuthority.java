@@ -18,6 +18,8 @@ class CheckAuthority {
             System.out.print("B1");
             System.out.print("B2");
             System.out.print("B1");
+            System.out.print("B2");
+
             double d = Double.parseDouble(new BufferedReader(new InputStreamReader(System.in)).readLine());
             manager.processRequest(new PurchaseRequest(d));
         }
