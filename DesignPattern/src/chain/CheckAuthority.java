@@ -14,11 +14,14 @@ class CheckAuthority {
         while (true) {
             System.out.println("Enter the amount to check who should approve your expenditure.");
             System.out.print(">");
+
             System.out.print("M");
             System.out.print("B1");
             System.out.print("B2");
             System.out.print("B1");
             System.out.print("B2");
+            System.out.print("B3");
+            System.out.print("B3");
 
             double d = Double.parseDouble(new BufferedReader(new InputStreamReader(System.in)).readLine());
             manager.processRequest(new PurchaseRequest(d));
